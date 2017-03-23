@@ -19,6 +19,7 @@ html{/******** 把整個頁面的背景變成漸層********/
           align-items: center;
   -webkit-justify-content: center;
           justify-content: center;
+
 }
 input[type=submit] { /******** 改變提交按鈕樣式 ********/
 	padding:5px 115px; background:#32906e; border:0 none;
@@ -29,7 +30,7 @@ input[type=submit] { /******** 改變提交按鈕樣式 ********/
 
 input[type=text] {padding:5px 62px; } /******** 調整bar打大小 ********/
 input[type=email] {padding:5px 62px;}
-input[type=date] {padding:5px 62px;}
+input[type=date] {padding:5px 62px; }
 
 input[type=text]:valid{ /******** 輸入樣式正確 變色 ********/
   background-color:#39b387;
@@ -38,7 +39,7 @@ input[type=email]:valid{
   background-color:#39b387;
 }
 input[type=date]:valid{
-  background-color:#39b387;
+  background-color:#39b387;border-color:#39b387;
 }
 select:valid{
   background-color:#39b387;
